@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:blanchedalmond;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.main{
+    background-color: blanchedalmond;
+ width: 100%;
+ height: 100vh;
+ box-sizing: border-box;
+ position: relative;
+ background-image: url(images/IMG-20200831-WA0006.jpg);
+ background-repeat: no-repeat;
+ background-position-x: 90%;
+ background-position-y:60% ;
+ 
+ 
+ 
+ 
+ 
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: cursive;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: cornsilk;
+    position: fixed;
+    padding: 10px 5px;
+    z-index: 1;
+    
+
+}
+
+.menu{
+    display:flex;
+    font-size: 12px;
+    
+
+}
+
+.menu li a{
+    padding: 10px  15px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: blue;
+    background-color: black;
+    transform:translateX(-3px);
+    
+
+}
+
+.menu li a:hover,.active{
+    background-color: #292929;
+    color: blue !important;
+    font-weight: 700;
+    transition: all ease 0.4s;
+}
+
+.allurer{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 25px;
+    
+    
+    
+
+}
+
+.allurer:hover{
+    transform: translateY(-3px);
+    color: black;
+}
+
+.name{
+    font-family: calibri;
+    width: 500px;
+    position: relative;
+    left: 36%;
+    top: 50%;
+    transform: translate(-35%,-50%);
+    border: 1px;
+    border-radius: 10px;
+    background-color: cornsilk;
+    padding: 10px;
+    box-shadow: 15%,5px, blue;
+
+}
+
+p{
+    margin-top: 0px;
+}
+.name p:nth-child(1){
+    color: #6c706c;
+    font-size: 20px;
+}
+
+
+
+.name h1{
+    font-family:poppins;
+    font-size: 40px;
+}
+.name h2{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.s-heading{
+   text-align: center; 
+   margin: 20px 0px;
+   background-color: cornsilk;
+
+}
+
+.s-heading h1{
+    color: blue;
+    font-size:2rem ;
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+.s-heading p{
+    font-size: 1.6rem;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+
+
+.s-heading h1:hover{
+    transform: translateY(-4px);
+    color: black;
+}
+
+
+.image{
+    background-color:blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr   ;
+    padding: 50px;
+    margin-left: 150px;
+    width: fit-content;
+    
+    
+    
+}
+
+img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+#media ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+
+#media ul li{
+    list-style: none;
+    margin:0 15px;
+}
+
+#media ul li .fa{
+    font-size: 20px;
+    line-height: 60px;
+    transition:6s ;
+    color:white;
+    
+}
+
+
+#media ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0 5px 4px blue;
+}
+
+#media ul li a:hover{
+    transform: translate(0 ,-10px);
+}
+
+#media ul li:nth-child(1) a:hover{
+    background-color:#3b5999;
+}
+
+#media ul li:nth-child(2) a:hover{
+    background-color:#55acee;
+}
+
+
+#media ul li:nth-child(3) a:hover{
+    background-color:#e44054
+}
+
+#media ul li:nth-child(4) a:hover{
+    background-color:green;
+}
+
+
+.home{
+    position: absolute;
+}
+
+.home a{
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.me button {
+    color: blue;
+    width: 120px;
+ 
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    margin-left: 46%;
+    margin-top: -10px;
+    background-color: cornsilk;
+
+
+}
+
+.me a{
+   text-decoration: none; 
+   color: blue;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.me a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.me2 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.me2 a:hover{
+    background-color: black;
+
+}
+
+
+.me2 button{
+    color: blue;
+    width: 190px;
+    display: inline-block;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    float: right;
+
+}
+
+.copyright{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
